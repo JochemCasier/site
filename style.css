@@ -30,8 +30,8 @@ body {
 #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 20px;
+    left: 20px;
 
     z-index: 1;
 
@@ -42,7 +42,7 @@ body {
 
 #menuToggle a {
     text-decoration: none;
-    color: #232323;
+    color: #ffffff;
 
     transition: color 0.3s ease;
 }
@@ -72,7 +72,6 @@ body {
   */
 
 .ham-menu {
-    background-color: red;
     position: absolute;
 }
 
@@ -83,7 +82,7 @@ body {
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
+    background: #ffffff;
     border-radius: 3px;
 
     z-index: 1;
@@ -110,7 +109,7 @@ body {
 #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #ffffff;
 }
 
 /*
@@ -134,12 +133,13 @@ body {
   */
 #menu {
     position: absolute;
-    width: 100px;
+    width: 50px;
+    height: 1000px;
     margin: -100px 0 0 -50px;
     padding: 50px;
-    padding-top: 125px;
+    padding-top: 120px;
 
-    background: #ededed;
+    background-color: rgba(0, 0, 0, 0.5);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -174,6 +174,17 @@ body {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+}
+
+.landing p {
+    font-family: "Josefin Sans";
+    font-size: x-large;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 78px;
+
+
 }
 
 .sidebar {
@@ -406,7 +417,6 @@ body {
         user-select: none;
         -webkit-user-select: none;
         background-color: rgba(87, 41, 41, 0.5);
-
     }
 
     /* Position the "next button" to the right */
