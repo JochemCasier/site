@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+        <div id="menuToggle">
+            <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+            <input type="checkbox" />
+
+            <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="work.html">
+                    <li>WORK</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <!-- source for sidebar creation: https://codepen.io/codeseries09/pen/QWWvybz // -->
+        <h1>Menu</h1>
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+
+    </div>
+
+    <div class="photos">
+
+        <div>
+            <img src="images/1.jpeg" class="work" onclick="openModal();currentSlide(1)">
+        </div>
+        <div>
+            <img src="images/2.jpeg" class="work" onclick="openModal();currentSlide(2)">
+        </div>
+        <div>
+            <img src="images/3.jpeg" class="work" onclick="openModal();currentSlide(3)">
+        </div>
+        <div>
+            <img src="images/4.jpeg" class="work" onclick="openModal();currentSlide(4)">
+        </div>
+        <div>
+            <img src="images/5.jpeg" class="work" onclick="openModal();currentSlide(5)">
+        </div>
+        <div>
+            <img src="images/6.jpeg" class="work" onclick="openModal();currentSlide(6)">
+        </div>
+        <div>
+            <img src="images/7.jpeg" class="work" onclick="openModal();currentSlide(7)">
+        </div>
+        <div>
+            <img src="images/8.jpeg" class="work" onclick="openModal();currentSlide(8)">
+        </div>
+        <div>
+            <img src="images/9.jpeg" class="work" onclick="openModal();currentSlide(9)">
+        </div>
+        <div>
+            <img src="images/10.jpeg" class="work" onclick="openModal();currentSlide(10)">
+        </div>
+        <div>
+            <img src="images/11.jpeg" class="work" onclick="openModal();currentSlide(11)">
+        </div>
+        <div>
+            <img src="images/12.jpeg" class="work" onclick="openModal();currentSlide(12)">
+        </div>
+        <div>
+            <img src="images/13.jpeg" class="work" onclick="openModal();currentSlide(13)">
+        </div>
+        <div>
+            <img src="images/14.jpeg" class="work" onclick="openModal();currentSlide(14)">
+        </div>
+        <div>
+            <img src="images/15.jpeg" class="work" onclick="openModal();currentSlide(15)">
+        </div>
+        <div>
+            <img src="images/16.jpeg" class="work" onclick="openModal();currentSlide(16)">
+        </div>
+        <div>
+            <img src="images/17.jpeg" class="work" onclick="openModal();currentSlide(17)">
+        </div>
+        <div>
+            <img src="images/18.jpeg" class="work" onclick="openModal();currentSlide(18)">
+        </div>
+        <div>
+            <img src="images/19.jpeg" class="work" onclick="openModal();currentSlide(19)">
+        </div>
+        <div>
+            <img src="images/20.jpeg" class="work" onclick="openModal();currentSlide(20)">
+        </div>
+        <div>
+            <img src="images/21.jpeg" class="work" onclick="openModal();currentSlide(21)">
+        </div>
+        <div>
+            <img src="images/22.jpeg" class="work" onclick="openModal();currentSlide(22)">
+        </div>
+        <div>
+            <img src="images/23.jpeg" class="work" onclick="openModal();currentSlide(23)">
+        </div>
+        <div>
+            <img src="images/24.jpeg" class="work" onclick="openModal();currentSlide(24)">
+        </div>
+        <div>
+            <img src="images/25.jpeg" class="work" onclick="openModal();currentSlide(25)">
+        </div>
+        <div>
+            <img src="images/26.jpeg" class="work" onclick="openModal();currentSlide(26)">
+        </div>
+        <div>
+            <img src="images/27.jpeg" class="work" onclick="openModal();currentSlide(27)">
+        </div>
+        <div>
+            <img src="images/28.jpeg" class="work" onclick="openModal();currentSlide(28)">
+        </div>
+        <div>
+            <img src="images/29.jpeg" class="work" onclick="openModal();currentSlide(29)">
+        </div>
+        <div>
+            <img src="images/30.jpeg" class="work" onclick="openModal();currentSlide(30)">
+        </div>
+        <div>
+            <img src="images/31.jpeg" class="work" onclick="openModal();currentSlide(31)">
+        </div>
+        <div>
+            <img src="images/32.jpeg" class="work" onclick="openModal();currentSlide(32)">
+        </div>
+        <div>
+            <img src="images/33.jpeg" class="work" onclick="openModal();currentSlide(33)">
+        </div>
+        <div>
+            <img src="images/34.jpeg" class="work" onclick="openModal();currentSlide(34)">
+        </div>
+        <div>
+            <img src="images/35.jpeg" class="work" onclick="openModal();currentSlide(35)">
+        </div>
+        <div>
+            <img src="images/36.jpeg" class="work" onclick="openModal();currentSlide(36)">
+        </div>
+        <div>
+            <img src="images/37.jpeg" class="work" onclick="openModal();currentSlide(37)">
+        </div>
+        <div>
+            <img src="images/38.jpeg" class="work" onclick="openModal();currentSlide(38)">
+        </div>
+        <div>
+            <img src="images/39.jpeg" class="work" onclick="openModal();currentSlide(39)">
+        </div>
+        <div>
+            <img src="images/40.jpeg" class="work" onclick="openModal();currentSlide(40)">
+        </div>
+        <div>
+            <img src="images/41.jpeg" class="work" onclick="openModal();currentSlide(41)">
+        </div>
+        <div>
+            <img src="images/42.jpeg" class="work" onclick="openModal();currentSlide(42)">
+        </div>
+        <div>
+            <img src="images/43.jpeg" class="work" onclick="openModal();currentSlide(43)">
+        </div>
+        <div>
+            <img src="images/44.jpeg" class="work" onclick="openModal();currentSlide(44)">
+        </div>
+        <div>
+            <img src="images/45.jpeg" class="work" onclick="openModal();currentSlide(45)">
+        </div>
+        <div>
+            <img src="images/46.jpeg" class="work" onclick="openModal();currentSlide(46)">
+        </div>
+        <div>
+            <img src="images/47.jpeg" class="work" onclick="openModal();currentSlide(47)">
+        </div>
+        <div>
+            <img src="images/48.jpeg" class="work" onclick="openModal();currentSlide(48)">
+        </div>
+        <div>
+            <img src="images/49.jpeg" class="work" onclick="openModal();currentSlide(49)">
+        </div>
+        <div>
+            <img src="images/50.jpeg" class="work" onclick="openModal();currentSlide(50)">
+        </div>
+        <div>
+            <img src="images/51.jpeg" class="work" onclick="openModal();currentSlide(51)">
+        </div>
+        <div>
+            <img src="images/52.jpeg" class="work" onclick="openModal();currentSlide(52)">
+        </div>
+        <div>
+            <img src="images/53.jpeg" class="work" onclick="openModal();currentSlide(53)">
+        </div>
+        <div>
+            <img src="images/54.jpeg" class="work" onclick="openModal();currentSlide(54)">
+        </div>
+        <div>
+            <img src="images/55.jpeg" class="work" onclick="openModal();currentSlide(55)">
+        </div>
+        <div>
+            <img src="images/56.jpeg" class="work" onclick="openModal();currentSlide(56)">
+        </div>
+        <div>
+            <img src="images/57.jpeg" class="work" onclick="openModal();currentSlide(57)">
+        </div>
+        <div>
+            <img src="images/58.jpeg" class="work" onclick="openModal();currentSlide(58)">
+        </div>
+        <div>
+            <img src="images/59.jpeg" class="work" onclick="openModal();currentSlide(59)">
+        </div>
+        <div>
+            <img src="images/60.jpeg" class="work" onclick="openModal();currentSlide(60)">
+        </div>
+        <div>
+            <img src="images/61.jpeg" class="work" onclick="openModal();currentSlide(61)">
+        </div>
+        <div>
+            <img src="images/62.PNG" class="work" onclick="openModal();currentSlide(62)">
+        </div>
+        <div>
+            <img src="images/63.PNG" class="work" onclick="openModal();currentSlide(63)">
+        </div>
+        <div>
+            <img src="images/64.jpeg" class="work" onclick="openModal();currentSlide(64)">
+        </div>
+        <div>
+            <img src="images/65.jpeg" class="work" onclick="openModal();currentSlide(65)">
+        </div>
+        <div>
+            <img src="images/66.jpeg" class="work" onclick="openModal();currentSlide(66)">
+        </div>
+        <div>
+            <img src="images/67.jpeg" class="work" onclick="openModal();currentSlide(67)">
+        </div>
+        <div>
+            <img src="images/68.jpeg" class="work" onclick="openModal();currentSlide(68)">
+        </div>
+        <div>
+            <img src="images/69.jpeg" class="work" onclick="openModal();currentSlide(69)">
+        </div>
+        <div>
+            <img src="images/70.jpeg" class="work" onclick="openModal();currentSlide(70)">
+        </div>
+        <div>
+            <img src="images/71.jpeg" class="work" onclick="openModal();currentSlide(71)">
+        </div>
+        <div>
+            <img src="images/72.jpeg" class="work" onclick="openModal();currentSlide(72)">
+        </div>
+        <div>
+            <img src="images/73.jpeg" class="work" onclick="openModal();currentSlide(73)">
+        </div>
+        <div>
+            <img src="images/74.jpeg" class="work" onclick="openModal();currentSlide(74)">
+        </div>
+        <div>
+            <img src="images/75.jpeg" class="work" onclick="openModal();currentSlide(75)">
+        </div>
+        <div>
+            <img src="images/76.jpeg" class="work" onclick="openModal();currentSlide(76)">
+        </div>
+        <div>
+            <img src="images/77.jpeg" class="work" onclick="openModal();currentSlide(77)">
+        </div>
+        <div>
+            <img src="images/78.jpeg" class="work" onclick="openModal();currentSlide(78)">
+        </div>
+        <div>
+            <img src="images/79.jpeg" class="work" onclick="openModal();currentSlide(79)">
+        </div>
+
+        <div>
+            <img src="images/80.jpeg" class="work" onclick="openModal();currentSlide(80)">
+        </div>
+
+        <div>
+            <img src="images/81.jpeg" class="work" onclick="openModal();currentSlide(81)">
+        </div>
+
+        <div>
+            <img src="images/82.jpeg" class="work" onclick="openModal();currentSlide(82)">
+        </div>
+
+        <div>
+            <img src="images/83.jpeg" class="work" onclick="openModal();currentSlide(83)">
+        </div>
+
+        <div>
+            <img src="images/84.jpeg" class="work" onclick="openModal();currentSlide(84)">
+        </div>
+        <div>
+            <img src="images/85.jpeg" class="work" onclick="openModal();currentSlide(85)">
+        </div>
+        <div>
+            <img src="images/86.jpeg" class="work" onclick="openModal();currentSlide(86)">
+        </div>
+        <div>
+            <img src="images/87.jpeg" class="work" onclick="openModal();currentSlide(87)">
+        </div>
+        <div>
+            <img src="images/88.jpeg" class="work" onclick="openModal();currentSlide(88)">
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="images/1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/2.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/3.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/4.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/5.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/6.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/7.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/8.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/9.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/10.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/11.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/12.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/13.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/14.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/15.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/16.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/17.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/18.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/19.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/20.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/21.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/22.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/23.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/24.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/25.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/26.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/27.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/28.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/29.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/30.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/31.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/32.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/33.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/34.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/35.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/36.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/37.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/38.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/39.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/40.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/41.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/42.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/43.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/44.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/45.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/46.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/47.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/48.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/49.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/50.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/51.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/52.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/53.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/54.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/55.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/56.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/57.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/58.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/59.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/60.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/61.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/62.PNG" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/63.PNG" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/64.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/65.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/66.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/67.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/68.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/69.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/70.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/71.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/72.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/73.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/74.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/75.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/76.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/77.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/78.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/79.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/80.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/81.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/82.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/83.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/84.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/85.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/86.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/87.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="images/88.jpeg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+
+
+</body>
+
+
+</html>
